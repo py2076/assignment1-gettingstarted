@@ -13,7 +13,7 @@ def welcome_assignment_answers(question):
                     "posted by a TA?":
         answer = "mtls"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
-        answer = "No"
+        answer = "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
     elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 " \
@@ -23,7 +23,7 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a " \
                      "numeric number":
-        answer = 7
+        answer = 5
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric " \
                      "number":
         answer = 4
